@@ -19,7 +19,7 @@ namespace Pokedex2020ProgIIIv2
                 SqlCommand comando = new SqlCommand();
                 SqlDataReader lector;
 
-                conexion.ConnectionString = "Connectionstring";
+                conexion.ConnectionString = "DESKTOP-530BJFO\\SQLEXPRESS";
                 comando.CommandType = System.Data.CommandType.Text;
                 comando.CommandText = "select Nombre, Numero, Imagen from pokemons";
                 comando.Connection = conexion;
