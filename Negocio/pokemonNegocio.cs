@@ -7,7 +7,7 @@ using System.Data.SqlClient;
 
 namespace Pokedex2020ProgIIIv2
 {
-    class PokemonNegocio
+    public class PokemonNegocio
     {
         public List<Pokemon> listar()
         {

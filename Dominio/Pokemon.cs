@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Pokedex2020ProgIIIv2
 {
-    class Pokemon
+    public class Pokemon
     {
         public int id { get; set; }
         public string nombre { get; set; }

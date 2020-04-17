@@ -44,5 +44,14 @@ namespace Pokedex2020ProgIIIv2
                 MessageBox.Show(ex.ToString());
             }
         }
+
+        private void btnAgregar_Click(object sender, EventArgs e)
+        {
+            frmAltaPokemon alta = new frmAltaPokemon();
+            for (int i = 0; i < 10; i++)
+            {
+                alta.ShowDialog();
+            }
+        }
     }
 }
