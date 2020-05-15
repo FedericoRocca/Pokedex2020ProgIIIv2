@@ -36,7 +36,7 @@
                         <label>Password</label>
                         <asp:TextBox ID="txbPassword" CssClass="form-control" runat="server" />
                     </div>
-                    <asp:Button Text="Roben mis datos" CssClass="btn btn-primary" runat="server" />
+                    <asp:Button Text="Roben mis datos" CssClass="btn btn-primary" runat="server" OnClick="Unnamed1_Click" />
                 </div>
         </div>
     </form>

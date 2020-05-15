@@ -11,7 +11,13 @@ namespace PokemonWeb
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            
+        }
 
+        protected void Unnamed1_Click(object sender, EventArgs e)
+        {
+            Session.Add( Session.SessionID + "email", txbEmail.Text);
+            Response.Redirect("Bienvenida.aspx");
         }
     }
 }
